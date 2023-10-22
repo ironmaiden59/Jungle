@@ -4,6 +4,14 @@
     <h1>My Cart</h1>
   </header>
 
+  <% if enhanced_cart.length == 0 %>
+    <div class="alert alert-warning" role="alert">
+      Oops! Your cart appears to be empty. Please return to the
+      <a href="/" class="alert-link">main page</a>, and add some cool plants
+      to you cart.
+    </div>
+  <% else %>
+
   <div class="panel panel-default items">
     <table class="table table-bordered">
       <thead>
