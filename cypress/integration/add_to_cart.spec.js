@@ -1,7 +1,7 @@
 describe('add_to_cart functionality', () => {
 
   it('can visit the homepage', () => {
-    cy.visit('http://localhost:3000/')
+    cy.visit('/')
   })
 
   it('lets you add a product to the cart and checks that cart count increases by 1', () => {
